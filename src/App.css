@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color:  rgb(164, 174, 168);
+  background-color:  rgb(66, 67, 66);
 }
 
 
@@ -24,12 +24,12 @@ img {
 
 
 .jumbotron {
-  background-image: url('./Assets/background.gif');
+  background-image: url('./Assets/background2.gif');
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-color: rgb(52, 52, 56);
+  background-color: rgb(26, 26, 28);
   color:white;
 }
 
@@ -43,6 +43,10 @@ img {
   font-size: 48px;   
   font-family: 'Oswald', monospace;
   font-weight: bold;
+}
+
+.jumbotron h3, h4{
+  font-weight: lighter;
 }
 
 .jumbotron p {

@@ -37,7 +37,7 @@ class App extends Component {
       <div className="App">
         <div className="jumbotron">
           <div className="container">
-            <h1>Hi! Im Kristy Gao.</h1>
+            <h1>Hi! It's Kristy Gao.</h1>
             <h3>1A Computer Science student at the University of Waterloo</h3>
             <h4>Software Developer & Hackathon Founder</h4>
             <LinkBtn txt ="Resume" linker="https://drive.google.com/file/d/1QoIAg8VjW4VIsM4_My77wZJfrjWgWkuF/view?usp=sharing"/> <LinkBtn txt ="Contact" linker="mailto:gaoxuekristy@gmail.com?Subject=Hi!"/>   
