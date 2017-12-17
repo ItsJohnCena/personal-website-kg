@@ -1,4 +1,4 @@
-### It's my personal website! I made it with ReactJS and Bootstrap. 
+# It's my personal website! I made it with ReactJS and Bootstrap. 
 ## Below is some auto generated text from making a React app.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
