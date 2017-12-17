@@ -9,17 +9,6 @@ body{
   background-color:  rgb(164, 174, 168);
 }
 
-.reactlogo {
-  animation: reactlogoSpin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
 
 .App-title {
   font-size: 1.5em;
@@ -29,11 +18,6 @@ body{
   font-size: large;
 }
 
-@keyframes reactlogoSpin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 img {
   padding: 7px;
 }
@@ -41,7 +25,7 @@ img {
 
 .jumbotron {
   background-image: url('./Assets/background.gif');
-  height: 550px;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -51,7 +35,7 @@ img {
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top:25%;
 }
 
 .jumbotron h1 {
@@ -67,8 +51,8 @@ img {
 }
 
 .more-info{
-  color: rgb(240, 240, 240);
-  background-color:  rgb(19, 137, 150);
+  color:rgb(240, 240, 240);
+  background-color:rgb(19, 137, 150);
   background-image: url('./Assets/bar.png'), url('./Assets/foo.png');
   background-size: contain;
   background-repeat: no-repeat;
