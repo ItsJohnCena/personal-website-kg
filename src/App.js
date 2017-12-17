@@ -12,8 +12,6 @@ import sparta from './Assets/Logo/spartahacks.png';
 import starter from './Assets/Logo/starterhacks.png';
 import reactLogo from './Assets/Logo/ReactLogo.svg';
 
-import resum from './Assets/KGResume.pdf';
-
 import './App.css';
 var createReactClass = require('create-react-class');
 var LinkBtn = createReactClass({
@@ -42,7 +40,7 @@ class App extends Component {
             <h1>Hi! Im Kristy Gao.</h1>
             <h3>1A Computer Science student at the University of Waterloo</h3>
             <h4>Software Developer & Hackathon Founder</h4>
-            <LinkBtn txt ="Resume" linker={resum}/> <LinkBtn txt ="Contact" linker="mailto:gaoxuekristy@gmail.com?Subject=Hi!"/>   
+            <LinkBtn txt ="Resume" linker="https://drive.google.com/file/d/1QoIAg8VjW4VIsM4_My77wZJfrjWgWkuF/view?usp=sharing"/> <LinkBtn txt ="Contact" linker="mailto:gaoxuekristy@gmail.com?Subject=Hi!"/>   
             <div className="Row">
               <Tile link="https://github.com/ItsJohnCena/" pic={gitLogo}/> <Tile link="https://devpost.com/gaoxuekristy" pic={devLogo}/> <Tile link="https://linkedin.com/in/kristy-gao-07067b153/" pic={inLogo}/>             
             </div>
