@@ -57,7 +57,6 @@ img {
 .more-info{
   color:rgb(240, 240, 240);
   background-color:rgb(19, 137, 150);
-  background-image: url('./Assets/bar.png'), url('./Assets/foo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left, right;
