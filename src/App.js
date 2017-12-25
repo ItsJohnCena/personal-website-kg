@@ -2,6 +2,7 @@
 
 
 import React, { Component } from 'react';
+import Dimensions from 'react-dimensions';
 //import $ from 'jquery';
 import bsLogo from './Assets/Logo/bootstrapLogo.png';
 import devLogo from './Assets/Logo/devpLogo.png';
@@ -14,8 +15,8 @@ import reactLogo from './Assets/Logo/ReactLogo.svg';
 import foo from './Assets/foo.png';
 import bar from './Assets/bar.png';
 import blank from './Assets/blank.png';
-
 import './App.css';
+
 var createReactClass = require('create-react-class');
 var LinkBtn = createReactClass({
   onLinkClick: function(evt) {
@@ -41,40 +42,16 @@ var smolScreen = {
 };
 var setter;
 class App extends Component {
-  //screen resize
-  constructor(props){
-    super(props);
-    this.state={width: '0', height: '0'};
-    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-  }
-  componentDidMount(){
-    this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);
-  }
-  componentWillUnmount(){
-    window.removeEventListener('resize', this.updateWindowDimensions);
-  }
-  updateWindowDimensions(){    
-    if(this.state.width < 1200){
+  render() {
+    console.log("depends: " + this.props.containerWidth);
+    if(this.props.containerWidth < 1150){
       setter=smolScreen;
-      console.log("screen should be smol");
     }else{
       setter=bigScreen;
-      console.log("screen should be BIG");
     } 
-    this.setState({width: window.innerWidth, height: window.innerHeight});
-    console.log(setter);
-  }
-  
-
-  //screen resize
-
-
-
-  render() {
     console.log(setter);
     return (
-      <div className="App">
+      <div className="App"> 
         <div className="jumbotron">
           <div className="container">
             <h1>Hi! It's Kristy Gao.</h1>
@@ -116,4 +93,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Dimensions() (App);
