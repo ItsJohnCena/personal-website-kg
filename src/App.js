@@ -59,7 +59,7 @@ class App extends Component {
             <h4>Software Developer & Hackathon Founder</h4>
             <LinkBtn txt ="Resume" linker="https://drive.google.com/file/d/1QoIAg8VjW4VIsM4_My77wZJfrjWgWkuF/view?usp=sharing"/> <LinkBtn txt ="Contact" linker="mailto:gaoxuekristy@gmail.com?Subject=Hi!"/>   
             <div className="Row">
-              <Tile link="https://github.com/ItsJohnCena/" pic={gitLogo}/> <Tile link="https://devpost.com/gaoxuekristy" pic={devLogo}/> <Tile link="https://linkedin.com/in/kristy-gao-07067b153/" pic={inLogo}/>             
+              <Tile link="https://github.com/gaoxk/" pic={gitLogo}/> <Tile link="https://devpost.com/gaoxuekristy" pic={devLogo}/> <Tile link="https://linkedin.com/in/kristy-gao-07067b153/" pic={inLogo}/>             
             </div>
           </div>
         </div> 
