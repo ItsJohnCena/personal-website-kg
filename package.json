@@ -2,7 +2,7 @@
   "name": "personal-website-kg",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gaoxk.github.io/personal-website-kg",
+  "homepage": "http://kxg.space/",
   "dependencies": {
     "create-react-class": "^15.6.2",
     "jquery": "^3.2.1",
