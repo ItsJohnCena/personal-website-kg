@@ -41,7 +41,7 @@ img {
 .jumbotron h1 {
   color: #fff;
   font-size: 48px;   
-  font-family: 'Oswald', monospace;
+  font-family: 'MONACO', monospace ;
   font-weight: bold;
 }
 
@@ -63,7 +63,7 @@ img {
 }
 
 .more-info h3 {
-  font-family: 'Oswald', monospace;
+  font-family: 'MONACO', monospace;
   font-size: 20px;
   padding-top: 10px;
   font-weight: bold;

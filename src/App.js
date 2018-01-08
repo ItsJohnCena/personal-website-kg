@@ -57,7 +57,7 @@ class App extends Component {
             <h1>Hi! It's Kristy Gao.</h1>
             <h3>1B Computer Science student at the University of Waterloo</h3>
             <h4>Software Developer & Hackathon Founder</h4>
-            <LinkBtn txt ="Resume" linker="https://drive.google.com/file/d/1aWC5iBh9c0mvMV6IpLkvzL1cff-_k3-Q/view?usp=sharing"/> <LinkBtn txt ="Contact" linker="mailto:gaoxuekristy@gmail.com?Subject=Hi!"/>   
+            <LinkBtn txt ="Resume" linker="https://drive.google.com/file/d/1uNkr7ycBOIc9VC6jscm4hkcRPTptmO-k/view?usp=sharing"/> <LinkBtn txt ="Contact" linker="mailto:gaoxuekristy@gmail.com?Subject=Hi!"/>   
             <div className="Row">
               <Tile link="https://github.com/gaoxk/" pic={gitLogo}/> <Tile link="https://devpost.com/gaoxuekristy" pic={devLogo}/> <Tile link="https://linkedin.com/in/kristy-gao-07067b153/" pic={inLogo}/>             
             </div>
@@ -68,7 +68,7 @@ class App extends Component {
           <div className="row" >
               <div className="col-md-4">
                 <h3>HACKATHON FOUNDER & ORGANIZER</h3>
-                <p>Founded Guelph's first highschool hackathon, SpartaHacks. Currently an Executive Logistics Coordinator for StarterHacks.</p>
+                <p>Founded Guelph's first highschool hackathon, SpartaHacks. Currently the Lead Logistics Coordinator for StarterHacks.</p>
                   <Tile link="https://hackday.mlh.io/spartahacks2" pic={sparta}/>
                   <Tile link="https://starterhacks.ca/" pic={starter}/>
               </div>
@@ -82,7 +82,7 @@ class App extends Component {
               </div>
               <div className="col-md-4">
                 <h3>COMMUNITY LEADER</h3>
-                <p>Mathsoc First Year Rep, Math Council member, Mathsoc Marketing, Math Shadow Ambassador, Hip Hop dance member, figure skater, and more.</p>
+                <p>Mathsoc First Year Rep, HackThe6ix Workshop Coordinator, Math Shadow Ambassador, figure skater, and more. Community involvement means the world to me.</p>
                 <Tile link="http://mathsoc.uwaterloo.ca/" pic={msLogo}/>
               </div>
           </div>
