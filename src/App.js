@@ -54,7 +54,7 @@ class App extends Component {
       <div className="App"> 
         <div className="jumbotron">
           <div className="container">
-            <h1>Hi! It's Kristy Gao.</h1>
+            <h1>Hi! I'm Kristy Gao.</h1>
             <h3>1B Computer Science student at the University of Waterloo</h3>
             <h4>Software Developer & Hackathon Founder</h4>
             <LinkBtn txt ="Resume" linker="https://drive.google.com/file/d/1uNkr7ycBOIc9VC6jscm4hkcRPTptmO-k/view?usp=sharing"/> <LinkBtn txt ="Contact" linker="mailto:gaoxuekristy@gmail.com?Subject=Hi!"/>   
@@ -82,7 +82,7 @@ class App extends Component {
               </div>
               <div className="col-md-4">
                 <h3>COMMUNITY LEADER</h3>
-                <p>Mathsoc First Year Rep, HackThe6ix Workshop Coordinator, Math Shadow Ambassador, figure skater, and more. Community involvement means the world to me.</p>
+                <p>Mathsoc First Year Rep, Microsoft Student Partner, WATonomous Simulations Developer, CUTC Campus Ambassador, Math Shadow Ambassador, figure skater, and more. Community involvement means the world to me.</p>
                 <Tile link="http://mathsoc.uwaterloo.ca/" pic={msLogo}/>
               </div>
           </div>
