@@ -82,7 +82,7 @@ class App extends Component {
               </div>
               <div className="col-md-4">
                 <h3>COMMUNITY LEADER</h3>
-                <p>Mathsoc First Year Rep, Microsoft Student Partner, WATonomous Simulations Developer, CUTC Campus Ambassador, Math Shadow Ambassador, figure skater, and more. Community involvement means the world to me.</p>
+                <p>Mathsoc First Year Rep, Microsoft Student Partner, WATonomous Simulations Developer, Math Semi Formal Organizer, Math Shadow Ambassador, figure skater, and more. Community involvement means the world to me.</p>
                 <Tile link="http://mathsoc.uwaterloo.ca/" pic={msLogo}/>
               </div>
           </div>
